@@ -13,7 +13,7 @@ export default function ProductCard(props: any) {
         <div className="bg-white p-3 d-flex align-items-center justify-content-center"
           style={{ height: '230px' }}>
           <img
-            src={prod.image}
+            src={prod.images}
             alt={prod.title}
             style={{
               maxWidth: '100%',
