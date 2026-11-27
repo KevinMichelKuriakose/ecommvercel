@@ -17,6 +17,7 @@ const getProducts = async () => {
 export default async function Page() {
   const products = await getProducts();
 
+
   return (
     <div className="container my-4">
       {products.length === 0 ? (
